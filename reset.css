@@ -1,0 +1,21 @@
+@charset "UTF-8";
+html { height:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing: antialiased!important;}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { margin:0; padding:0;}
+body,button, input, select, textarea {font: 12px/1 "Microsoft YaHei","微软雅黑","arial","tahoma","MicrosoftJhengHei";  -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing: antialiased!important;/* 用 ascii 字符表示，使得在任何编码下都无问题 */}
+input.form-control{font: 12px/1 "Microsoft YaHei","微软雅黑","arial","tahoma","MicrosoftJhengHei";}
+body { background-color:transparent; min-height:100%; height:auto !important; height:100%;}
+img { border:0; vertical-align:middle; -ms-interpolation-mode:bicubic;}
+a {text-decoration:none; background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */}
+a.focus, a:focus{outline:0;}
+a.active.focus, a.active:focus, a.active:hover, a.focus:active, a:focus:active, a:hover:active, .open > a.dropdown-toggle.focus, .open > a.dropdown-toggle:focus, .open > a.dropdown-toggle:hover{outline:0;text-decoration:none;font-weight:400;}
+a:hover {text-decoration:none; transition:box-shadow .3s, border .3s, background-color .3s, color .3s;}
+a:active,a:visited{text-decoration:none;}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{}
+ul,li,ol { margin:0; padding:0; list-style:none;}
+.clearfix:before,.clearfix:after,.clearfix:before,.clearfix:after,.clearfix:before,.clearfix:after { content:""; display:table;}
+.clearfix:after,.clearfix:after,.clearfix:after { clear:both; overflow:hidden;}
+.clearfix,.clearfix,.clearfix  { zoom:1;}
+
+
+
+
